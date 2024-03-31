@@ -1,0 +1,82 @@
+*{
+        margin: 0;
+        /* padding: 0; */
+        font-family: "Roboto", sans-serif;
+}
+.container{
+        width: 100%;
+        /* height: 100vh; */
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+}
+.container .main{
+        width: 50%;
+        background-color: #212121;
+        padding: 30px;
+        border-radius: 10px;
+        color: white;
+}
+.container .main .image{
+        width: 30%;
+        /* height: 30%?; */
+        border-radius: 50%;
+        overflow: hidden;
+        margin: auto;
+}
+.container .main .image img{
+        width: 100%;
+}
+.container .main .text{
+        margin-top: 40px;
+        margin-bottom: 40px;
+}
+.container .main .text  h1{
+        margin-bottom: 10px;
+}
+.container .main .text  p{
+        line-height: 1.6;
+        width: 95%;
+        /* font-weight: 200; */
+        color: #ccc;
+        font-size: 18px;
+}
+.container ul  li h3{
+        margin-bottom: 10px;
+}
+.container ul li li{
+        list-style: none;
+        position: relative;
+        margin-bottom: 15px;
+}
+.container ul li li::before{
+        content: "";
+        position: absolute;
+	background-image: url("./hobby.jpg");
+	/* background-repeat: no-repeat; */
+        background-position: center;
+        background-size: contain;
+        top: 0;
+        left: -28px;
+	width: 20px;
+        height: 20px;
+        border-radius: 50%;
+}
+.container .contact{
+        display: flex;
+        align-items: center;
+}
+.container .contact a{
+        color: white;
+        display: flex;
+        text-decoration: none;
+        margin-left: 10px;
+        cursor: pointer;
+}
+.container .contact a i{
+        width: 100%;
+        height: 100%;
+}
